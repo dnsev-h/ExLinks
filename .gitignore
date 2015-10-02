@@ -1,0 +1,11 @@
+.workspace
+tmp/
+old/
+tools/
+node_modules/
+*.pdn
+*.sublime*
+test/
+
+*.lnk
+build.*
