@@ -8,4 +8,5 @@ node_modules/
 test/
 
 *.lnk
-build.*
+post_build.bat
+post_build.sh
