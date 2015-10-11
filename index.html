@@ -28,10 +28,7 @@
 	</div>
 
 	<div id="main_content_wrap" class="outer"><section id="main_content" class="inner">
-		<h1>
-		<a id="click-here-to-install-h-links" class="anchor" href="#click-here-to-install-h-links" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://raw.githubusercontent.com/dnsev-h/h-links/stable/builds/h-links.user.js" class="userscript_download_link" rel="noreferrer nofollow">Click here to install H-links</a>
-		</h1>
-
+		<h1><a href="https://raw.githubusercontent.com/dnsev-h/h-links/stable/builds/h-links.user.js" class="userscript_download_link" rel="noreferrer nofollow">Click here to install H-links</a></h1>
 		<p>
 			H-links is a heavily modified fork of <a href="https://hupotronic.github.io/ExLinks/" target="_blank" rel="noreferrer nofollow">ExLinks</a>
 			with many improvements and added features.
@@ -64,7 +61,19 @@
 			</div>
 		</div>
 
-		<h3>New Features</h3>
+		<h2>Installation (Firefox)</h2>
+		<ol>
+			<li>Make sure you have <a href="https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/" target="_blank" rel="noreferrer nofollow">Greasemonkey</a>.</li>
+			<li>Install the userscript by clicking the big install link above.</li>
+		</ol>
+
+		<h2>Installation (Chrome)</h2>
+		<ol>
+			<li>Make sure you have <a href="https://tampermonkey.net/" target="_blank" rel="noreferrer nofollow">Tampermonkey</a>.</li>
+			<li>Install the userscript by clicking the big install link above.</li>
+		</ol>
+
+		<h2>Features</h2>
 		<ul class="features">
 			<li>
 				<strong>Filtering</strong> -
@@ -115,12 +124,12 @@
 			</li>
 			<li>
 				<strong>Error information</strong> -
-				Failed gallery fetches now display the error message the server gave rather than just "Invalled Gallery Key".
+				Failed gallery fetches now display the error message the server gave rather than just "Invalid Gallery Key".
 			</li>
 			<li>
-				<strong>Google font load deferred</strong> -
-				ExLinks inserts a Google font on page load, even if there are no relevant links on the page.
-				H-links defers this until it's actually needed.
+				<strong>Resource loading deferred</strong> -
+				ExLinks inserts a web font on page load, even if there are no relevant links on the page.
+				H-links defers this until it's needed and has an option to disable it.
 			</li>
 			<li>
 				<strong>Better debugging</strong> -
@@ -146,28 +155,11 @@
 			</li>
 		</ul>
 
-		<h2>
-		<a id="installation-chrome" class="anchor" href="#installation-chrome" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation (Chrome)
-		</h2>
-
-		<ol>
-			<li>Make sure you have <a href="https://tampermonkey.net/" target="_blank" rel="noreferrer nofollow">Tampermonkey</a>.</li>
-			<li>Install the userscript by clicking the big install link above.</li>
-		</ol>
-
-		<h2>
-		<a id="installation-firefox" class="anchor" href="#installation-firefox" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation (Firefox)</h2>
-
-		<ol>
-			<li>Make sure you have <a href="https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/" target="_blank" rel="noreferrer nofollow">Greasemonkey</a>.</li>
-			<li>Install the userscript by clicking the big install link above.</li>
-		</ol>
-
-		<h2>
-		<a id="troubleshooting" class="anchor" href="#troubleshooting" aria-hidden="true"><span class="octicon octicon-link"></span></a>Troubleshooting</h2>
-
-		<p>If something seems to be failing, <strong>make sure all of your software is up to date.</strong> Then, when something else goes wrong,
-		file an <a href="https://github.com/dnsev-h/h-links/issues" target="_blank" rel="noreferrer nofollow">issue request</a>.</p>
+		<h2>Troubleshooting</h2>
+		<p>
+			If something seems to be failing, <strong>make sure all of your software is up to date.</strong>
+			Then, when something else goes wrong, file an <a href="https://github.com/dnsev-h/h-links/issues" target="_blank" rel="noreferrer nofollow">issue request</a>.
+		</p>
 	</section></div>
 
 	<div id="footer_wrap" class="outer">
