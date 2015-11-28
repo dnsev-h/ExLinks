@@ -144,6 +144,10 @@
 	ready(function () {
 		var n;
 
+		if ((n = $(".showcase_button_container")) !== null) {
+			n.style.display = "";
+		}
+		
 		if ((n = $(".showcase_image")) !== null) {
 			n.addEventListener("load", on_image_ready, false);
 		}
