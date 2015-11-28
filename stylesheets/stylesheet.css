@@ -504,6 +504,13 @@ img.showcase_image {
 	font-style: italic;
 }
 
+.download_header {
+	margin-bottom: 0;
+}
+.download_extensions {
+	line-height: 1.25em;
+	margin-top: -0.5em;
+}
 
 /*******************************************************************************
 Small Device Styles
