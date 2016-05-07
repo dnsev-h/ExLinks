@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="chrome=1" />
 	<meta name="description" content="A userscript to make your browsing experience on 4chan and friends more pleasurable" />
-	<meta name="keywords" content="x-links,h-links,exlinks,ehentai,exhentai,sadpanda,userscript" />
+	<meta name="keywords" content="x-links,h-links,xlinks,exlinks,ehentai,exhentai,sadpanda,userscript,4chan" />
 	<meta name="author" content="dnsev-h" />
 	<link rel="shortcut icon" href="images/favicon.png" />
 	<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css" />
@@ -23,12 +23,13 @@
 			<section id="downloads">
 				<a class="zip_download_link" href="https://github.com/dnsev-h/x-links/zipball/master">Download this project as a .zip file</a>
 				<a class="tar_download_link" href="https://github.com/dnsev-h/x-links/tarball/master">Download this project as a tar.gz file</a>
+				<span class="downloads_info">Source code downloads</span>
 			</section>
 		</header>
 	</div>
 
 	<div id="main_content_wrap" class="outer"><section id="main_content" class="inner">
-		<h1 class="download_header">
+		<h1 id="install" class="install_header">
 			<a href="https://raw.githubusercontent.com/dnsev-h/x-links/stable/builds/x-links.user.js" class="userscript_download_link" rel="noreferrer nofollow">Click here to install X-links</a>
 		</h1>
 		<p class="download_extensions">
@@ -69,13 +70,13 @@
 		<h2>Installation (Firefox)</h2>
 		<ol>
 			<li>Make sure you have <a href="https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/" target="_blank" rel="noreferrer nofollow">Greasemonkey</a>.</li>
-			<li>Install the userscript by clicking the big install link above.</li>
+			<li>Install the userscript by clicking the <a href="#install">big install link</a> above.</li>
 		</ol>
 
 		<h2>Installation (Chrome)</h2>
 		<ol>
 			<li>Make sure you have <a href="https://tampermonkey.net/" target="_blank" rel="noreferrer nofollow">Tampermonkey</a>.</li>
-			<li>Install the userscript by clicking the big install link above.</li>
+			<li>Install the userscript by clicking the <a href="#install">big install link</a> above.</li>
 		</ol>
 
 		<h2>Features</h2>
@@ -104,7 +105,7 @@
 			</li>
 			<li>
 				<strong>ExSauce for JPEG</strong>* -
-				ExSauce now works for colored .jpg images, <em>but only on Firefox</em>.
+				ExSauce now works for <strong>colored</strong> .jpg images, <em>but only on Firefox</em>.
 				Tampermonkey's GM_xmlhttpRequest API is <a href="https://github.com/Hupotronic/ExLinks/pull/58" target="_blank" rel="noreferrer nofollow" class="light_link"><span>not compatible enough to support this</span></a>.
 			</li>
 			<li>

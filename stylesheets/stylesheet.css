@@ -504,13 +504,51 @@ img.showcase_image {
 	font-style: italic;
 }
 
-.download_header {
+.install_header {
 	margin-bottom: 0;
+	position: relative;
+	z-index: 10;
 }
 .download_extensions {
 	line-height: 1.25em;
 	margin-top: -0.5em;
 }
+
+.downloads_info {
+	position: absolute;
+	top: 100%;
+	right: 0;
+	display: block;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s ease-in-out 0.25s, opacity 0.25s ease-in-out 0s;
+}
+#downloads>a:hover+.downloads_info,
+#downloads>a:hover+a+.downloads_info {
+	visibility: visible;
+	opacity: 0.75;
+	transition: visibility 0s ease-in-out 0s, opacity 0.25s ease-in-out 0s;
+}
+
+#install:target .userscript_download_link {
+	animation-duration: 1s;
+	animation-timing-function: ease-in;
+	animation-name: install_highlight;
+}
+
+@keyframes install_highlight {
+	0% {
+		background-color: #8855ff;
+		box-shadow: 0 0 0.125em 1em #8855ff;
+		color: #ffffff;
+	}
+	100% {
+		background-color: rgba(136,85,255,0);
+		box-shadow: 0 0 0.125em 0 rgba(136,85,255,0);
+		color: #8855ff;
+	}
+}
+
 
 /*******************************************************************************
 Small Device Styles
