@@ -4260,7 +4260,7 @@
 
 			callback(null, {
 				method: "POST",
-				url: "http://" + domains.gehentai + "/api.php",
+				url: "https://" + domains.ehentai + "/api.php",
 				headers: { "Content-Type": "application/json" },
 				data: JSON.stringify({
 					method: "gdata",
@@ -4319,7 +4319,7 @@
 
 			callback(null, {
 				method: "POST",
-				url: "http://" + domains.gehentai + "/api.php",
+				url: "https://" + domains.ehentai + "/api.php",
 				headers: { "Content-Type": "application/json" },
 				data: JSON.stringify({
 					method: "gtoken",
